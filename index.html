@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <!-- IP Address Tracker
+
+  Search for any IP address or domain
+
+  IP Address
+  Location
+  Timezone
+    UTC 
+  ISP
+   -->
+
+    <header class="finder">
+      <h1 class="title">IP Address Tracker</h1>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-bar__input"
+          placeholder="Search for any IP address or domain"
+        />
+        <button class="search-bar__btn"></button>
+      </div>
+
+      <div class="info">
+        <div class="info__block">
+          <div class="info__block-subtitle">IP Address</div>
+          <div class="info__block-title" id="ip"></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">Location</div>
+          <div class="info__block-title" id="location"></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">Current Time</div>
+          <div class="info__block-title" id="timezone"></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">currency</div>
+          <div class="info__block-title" id="isp"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="map">
+      
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
